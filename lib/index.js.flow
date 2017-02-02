@@ -1,0 +1,8 @@
+// @flow
+
+declare module.exports: {
+  nextUp: (x: number) => number;
+  nextDown: (x: number) => number;
+  ulp: (x: number) => number;
+  monkeypatch: () => void;
+};
